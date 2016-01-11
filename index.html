@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>The IBM Swift Sandbox on Bluemix</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<!-- link rel="stylesheet" href="css/theme/black.css" id="theme"-->
+		<link rel="stylesheet" href="css/theme/simple_nsu.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section data-transition="slide" data-background="#0099FF" data-background-transition="zoom">
+					<h1>Swift Sandbox</h1>
+					<p>The IBM Swift Sandbox on Bluemix</p>
+				</section>
+
+				<section data-transition="slide" data-background="#0099FF" data-background-transition="zoom" style="text-align: middle; ">
+					<h2>whoami</h2>
+					<p>		
+						<ul >
+							<li style="list-style-type: none; vertical-align: middle; display: inline; text-align: middle;">
+								<h5>@work</h5>
+								<ul>
+									<li style="list-style-type: disc; ">Ich arbeite für IBM Bluemix</li>
+								</ul>
+									<h5>private</h5>
+								<ul>
+									<li style="list-style-type: disc;">Mobile Developer</li>
+									<li style="list-style-type: disc;">like iOS Development</li>
+								</ul>	
+							</li>
+							<p text-align: right;>
+								
+							<small>
+									http: <a href="http://idev4u.github.com">Norman Sutorius</a>
+									twitter: <a href="http://twitter.com/soulfected">@Soulfected</a>
+							</small>
+								
+							</p>
+						</ul>
+							<img width="320" height="240" data-src="images/norman_320_240.jpg" alt="look right its me" style="float: middle; margin: 20px; padding:10px">
+					</p>
+				
+							
+					</p>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section data-transition="slide" data-background="#0099FF" data-background-transition="zoom">
+					<section>
+						<h2>Target</h2>
+						
+						<p> 
+						<ul>
+							<li>Swift probieren auf Linux ohne setup</li>
+							<li>Lass deinen code in der Cloud laufen</li>
+							<li>Vorbild ist JSFiddle</li>
+						</ul>
+						</p>
+					</section>
+					<section>
+						<h2>Access Swiftbox </h2>
+						<p>hier geht's zur Sandbox
+							<a href="http://swiftlang.ng.bluemix.net" target="_blank">start</a>
+						</p>
+						<p>hier geht's zum Code Sharing Example
+							<a href="http://swiftlang.ng.bluemix.net/#/repl/8481d81155cbe1bec626b0fbf1255d99442996aef75127a3879711894ff1b5fb" target="_blank">start</a>
+						</p>
+
+					</section>
+				</section>
+
+				<section data-transition="slide" data-background="#0099FF" data-background-transition="zoom">
+					<h2>Slides</h2>
+					<p>
+						Slides available on <a href="http://swiftmaultaschenbox.eu-gb.mybluemix.net" target="_blank">http://swiftmaultaschenbox.eu-gb.mybluemix.net</a>.
+					</p>
+				</section>
+
+				<section data-transition="slide" data-background="#0099FF" data-background-transition="zoom">
+					<h2>Ende </h2>
+					<p>
+						Danke
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
